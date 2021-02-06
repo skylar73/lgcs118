@@ -21,7 +21,7 @@
 
 %Use package/command below to create a double-spaced document, if you want one. Uncomment BOTH the package and the command (\doublespacing) to create a doublespaced document, or leave them as is to have a single-spaced document.
 %\usepackage{setspace}
-%\doublespacing 
+%\doublespacing
 
 %paragraph formatting
 \usepackage[parfill]{parskip}
@@ -32,7 +32,7 @@
 %use for special OT tableaux symbols like bomb and sad face. must be loaded early on because it doesn't play well with some other packages
 \usepackage{fourier-orns}
 
-%Basic math symbols 
+%Basic math symbols
 \usepackage{pifont}
 \usepackage{amssymb}
 
@@ -50,7 +50,7 @@
 \usepackage{ot-tableau}
 
 %Fonts
-\usepackage[no-math]{fontspec} %This allows you to enter (via an IPA kayboard) IPA fonts and other symbols directly into LaTeX. Requires a particular setyp, see below.
+%\usepackage[no-math]{fontspec} %This allows you to enter (via an IPA kayboard) IPA fonts and other symbols directly into LaTeX. Requires a particular setyp, see below.
 \usepackage{libertine} %A font that actually contains many IPA symbols. This is the font you see in the preview to the right.
 
 %to use these fonts, be sure that your typesetting engine is set to "XeLaTeX." In Overleaf, go to the Menu link on the top left (by the Overleaf icon), and under Settings be sure that the Compiler is set to "XeLaTeX." If you accessed this document via the Overleaf Pomona Linguistics template, all of this was already done for you.
@@ -79,10 +79,10 @@
 
 
 
-%Changes the \maketitle command to be smaller and take up less space on a page. 
-\makeatletter         
-\def\@maketitle{   % custom maketitle 
-\noindent {\Large \bfseries \color{black} \@title}  \\ \hrule \noindent \@author \\ \@date  
+%Changes the \maketitle command to be smaller and take up less space on a page.
+\makeatletter
+\def\@maketitle{   % custom maketitle
+\noindent {\Large \bfseries \color{black} \@title}  \\ \hrule \noindent \@author \\ \@date
 }
 
 %The code below will draw a circle around a piece of text. This is very useful for drawing attention to a word in a data example. use the command \circled{text} where the argument (`text' here) is what you want to be circled. This is illustrated in the Quick Reference Guide and the Paper Template.
@@ -167,7 +167,7 @@
 \usepackage{phonrule}
 
 %For using Greek letters outside of math mode.
-\usepackage{textgreek}
+%\usepackage{textgreek}
 
 
 %Random, lets us use the XeLaTeX logo. Not important to the template at all.
