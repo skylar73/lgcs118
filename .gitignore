@@ -275,4 +275,7 @@ TSWLatexianTemp*
 # Makeindex log files
 *.lpz
 
+# Mac files
 *.DS_Store
+
+Presentations/
